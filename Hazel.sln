@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+# The game is here first because we want it loaded first
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{392D6A16-4F16-43C7-AB15-F1CB09F661E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hazel", "Hazel.vcxproj", "{717897BD-A00F-415D-9000-68C996183D74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{717897BD-A00F-415D-9000-68C996183D74}.Debug|x64.ActiveCfg = Debug|x64
+		{717897BD-A00F-415D-9000-68C996183D74}.Debug|x64.Build.0 = Debug|x64
+		{717897BD-A00F-415D-9000-68C996183D74}.Release|x64.ActiveCfg = Release|x64
+		{717897BD-A00F-415D-9000-68C996183D74}.Release|x64.Build.0 = Release|x64
+		{392D6A16-4F16-43C7-AB15-F1CB09F661E3}.Debug|x64.ActiveCfg = Debug|x64
+		{392D6A16-4F16-43C7-AB15-F1CB09F661E3}.Debug|x64.Build.0 = Debug|x64
+		{392D6A16-4F16-43C7-AB15-F1CB09F661E3}.Release|x64.ActiveCfg = Release|x64
+		{392D6A16-4F16-43C7-AB15-F1CB09F661E3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB17F55E-4718-4D71-8467-CAA46AE7F928}
+	EndGlobalSection
+EndGlobal
