@@ -4,11 +4,12 @@
 
 namespace Hazel
 {
+	// HAZEL_API is used as a macro for __declspec(dllexport)
 	class HAZEL_API Application
 	{
 	public:
-		Application();
-		virtual ~Application();
+		Application();				// Constructor
+		virtual ~Application();		// Destructor; will be inherited by the sandbox app
 
 		void Run();		// Runs for the duration of the program
 	};

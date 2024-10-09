@@ -1,4 +1,5 @@
 #include "Application.h"
+#include <iostream>
 
 namespace Hazel
 {
@@ -16,7 +17,7 @@ namespace Hazel
 	{
 		while (true)
 		{
-
+			
 		}
 	}
 }
